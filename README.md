@@ -35,7 +35,7 @@ And could be styled like this..
 
 ```python
 import markdown
-import markdown_inline_convo
+import mdx_convo
 
 md = markdown.Markdown(
 	extensions = [
