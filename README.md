@@ -6,21 +6,25 @@ Markdown extension for displaying message conversations.
 
 The following markup..
 
-> <convo>
-  < Obi-Wan never told you what happened to your father
-  > He told me enough! He told me YOU killed him!
-  < No, I am your father!
-  > NOOOOOOOOOOOOOOOOOOO
-  </convo>
+```
+<convo>
+< Obi-Wan never told you what happened to your father
+> He told me enough! He told me YOU killed him!
+< No, I am your father!
+> NOOOOOOOOOOOOOOOOOOO
+</convo>
+```
 
 Results in..
 
+```html
 <div class="mdx-convo">
 <div class="mdx-convo-speech-left">Obi-Wan never told you what happened to your father</div>
 <div class="mdx-convo-speech-right">He told me enough! He told me YOU killed him!</div>
 <div class="mdx-convo-speech-left">No, I am your father!</div>
 <div class="mdx-convo-speech-right">NOOOOOOOOOOOOOOOOOOO</div>
 </div>
+```
 
 And could be styled like..
 
