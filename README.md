@@ -2,8 +2,6 @@
 
 Markdown extension for displaying message conversations.
 
-# Showcase
-
 The following Markdown..
 
 ```
@@ -15,7 +13,7 @@ The following Markdown..
 </convo>
 ```
 
-Results in the following HTML..
+..results in the following HTML..
 
 ```html
 <div class="mdx-convo">
@@ -26,7 +24,7 @@ Results in the following HTML..
 </div>
 ```
 
-And could be styled like this..
+..and could be styled like this..
 
 ![Message conversation example](example.png)
 
